@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lis"
+    android:background="#0000"
+    tools:context="com.ankit626.dsa.MainActivity">
+
+    <ImageView
+        android:id="@+id/rf2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ankity"/>
+<android.support.v7.widget.RecyclerView
+    android:layout_below="@+id/rf2"
+    android:layout_width="match_parent"
+    android:id="@+id/recycler"
+    android:layout_height="match_parent">
+
+</android.support.v7.widget.RecyclerView>
+    <ImageView
+        android:id="@+id/rf"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/hq"/>
+
+</RelativeLayout>
